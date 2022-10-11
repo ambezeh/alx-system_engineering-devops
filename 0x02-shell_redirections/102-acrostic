@@ -1,0 +1,2 @@
+#!/bin/bash
+cut -c l | paste -s -d "." -f 2- | rev | LC-ALL=C sort -f
